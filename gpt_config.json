@@ -1,0 +1,6 @@
+{
+  "api_key": "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",
+  "base_url": "https://openrouter.ai/api/v1",
+  "model": "deepseek-v3.2",
+  "language": "English"
+}
