@@ -1,8 +1,8 @@
-# 🐛 WormGPT CLI - OpenRouter Edition
+# 🐛 GPT CLI - OpenRouter Edition
 
-**WormGPT CLI** is a sleek command-line interface (CLI) for interacting with LLMs via OpenRouter API. It supports multiple models, automatic language detection, and customizable settings — all in a terminal-friendly format.
+**GPT CLI** is a sleek command-line interface (CLI) for interacting with LLMs via OpenRouter API. It supports multiple models, automatic language detection, and customizable settings — all in a terminal-friendly format.
 
-> ⚡ Lightweight. Powerful. Fully terminal-based. Made with ❤️ by [@hexsecteam](https://github.com/hexsecteam)
+> ⚡ Lightweight. Powerful. Fully terminal-based. Made with ❤️ by [Database](https://github.com/Database1x)
 
 ---
 
@@ -14,7 +14,7 @@
 - 💬 Interactive chat session with typing effect
 - 🎨 Stylish CLI UI with colors and banners
 - 🔧 Easy configuration of API key and model
-- 💾 Config auto-saved in `wormgpt_config.json`
+- 💾 Config auto-saved in `gpt_config.json`
 
 ---
 
@@ -31,9 +31,9 @@
 Clone the repo:
 
 ```bash
-git clone https://github.com/hexsecteam/worm-gpt
-cd worm-gpt
-python3 wormgpt.py
+git clone https://github.com/Database1x/ai-test
+cd gpt
+python3 gpt.py
 ```
 
 ## 🔑 Set Your API Key
@@ -48,7 +48,7 @@ Or manually edit the config file:
 {
   "api_key": "YOUR_API_KEY_HERE",
   "base_url": "https://openrouter.ai/api/v1",
-  "model": "deepseek/deepseek-chat-v3-0324:free",
+  "model": "deepseek-v3.2",
   "language": "English"
 }
 ```
@@ -56,7 +56,7 @@ Or manually edit the config file:
 ## 🧠 Usage Example
 
 ```
-python3 wormgpt.py
+python3 ai.py
 ```
 
 ## Menu will appear:
@@ -64,7 +64,7 @@ python3 wormgpt.py
 ```
 [ Main Menu ]
 1. Language: English
-2. Model: deepseek/deepseek-chat-v3-0324:free
+2. Model: deepseek-v3.2
 3. Set API Key
 4. Start Chat
 5. Exit
@@ -81,12 +81,10 @@ meta-llama/llama-3-8b-instruct:nitro
 ```
 
 ### 📷 Example Screenshot
-![WormGPT CLI Example](assets/example.jpg)
+![GPT CLI Example](assets/example.jpg)
 
 ## 👨‍💻 Author
 
-GitHub: @hexsecteam
+GitHub: @database1x 
 
-Telegram: t.me/hexsec_tools 
-
-Project URL: https://github.com/hexsecteam/worm-gpt
+Project URL: https://github.com/Database1x/ai-test
