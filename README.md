@@ -47,7 +47,7 @@ Or manually edit the config file:
 ```
 {
   "api_key": "YOUR_API_KEY_HERE",
-  "base_url": "https://openrouter.ai/api/v1",
+  "base_url": "https://openrouter.ai/nex-agi/deepseek-v3.1-nex-n1",
   "model": "deepseek-v3.2",
   "language": "English"
 }
